@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>buscopareja.net</title>
+    <link href="css/cssindex.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="left">
+        <div id="signin">
+          <div class="logo">
+            <img src="images/logobuscopa.png" alt="logo" />
+          </div>
+          <form action="ServletForm" method="POST">
+            <div>
+              <label>Correo o nombre de usuario</label>
+              <input name="correoelectronico" type="email" class="text-input" required/>
+            </div>
+            <div>
+              <label>Contraseña</label>
+              <input  name="buscaPass" type="password" class="text-input" required/>
+            </div>
+            <button type="submit" class="primary-btn">Entrar</button>
+          </form>
+          <div class="links">
+            <a href="#">¿Has olvidado tu contraseña?</a>
+          </div>
+          <div class="or">
+            <hr class="bar" />
+            <span>SI NO TIENES CUENTA</span>
+            <hr class="bar" />
+          </div>
+          <a href="Registrar.html" class="secondary-btn">REGÍSTRATE YA</a>
+        </div>
+        <footer id="main-footer">
+          <div>
+            <a href="creadores.html">Términos de uso</a> | <a href="creadores.html">Política de privacidad</a>
+          </div>
+        </footer>
+      </div>
+      <div id="right">
+        <div id="showcase">
+          <div class="showcase-content">
+            <h1 class="showcase-text">
+              Para que encuentres el <strong>Amor</strong>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
